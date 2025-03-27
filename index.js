@@ -102,13 +102,11 @@ function addBookToLibrary() {
     let pages = document.querySelector("#pages").value.trim();
     let read = document.querySelector("#read").checked;
 
-    // Check for empty fields
-    if (title === "" || author === "" || pages === "") {
+if (title === "" || author === "" || pages === "") {
         alert("Please fill in all fields.");
         return;
     }
 
-    // Check if book already exists
     let duplicate = myLibrary.some(book => book.title.toLowerCase() === title.toLowerCase() && book.author.toLowerCase() === author.toLowerCase());
 
     if (duplicate) {
