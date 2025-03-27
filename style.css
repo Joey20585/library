@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin-left: 800px;
+    padding: 20px;
+   
+    height: 80%;
+    width: 50%;
+
+}
+.container{
+    width: 100%;
+}
+.button {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], 
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+input[type="checkbox"] {
+    margin-left: 5px;
+}
+
+input[type="checkbox"] + label {
+    font-weight: normal;
+}
+
+@media (max-width: 400px) {
+    form {
+        width: 100%;
+    }
+}
+.btn{
+    width: 300px;
+}
+
+
+.book-card {
+    
+
+    /* align-items: center;
+    justify-content: center; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px blue;
+    padding: 25px;
+    width: 150px;
+    height: 150PX;
+    text-align: left;
+    
+    margin-top: 20px;
+    margin-left: 50px; 
+
+    
+}
+
+.book-card h3 {
+    margin-top: 20px;
+    text-align: center;
+    
+
+}
+.read-status{
+    background-color: pink;
+}
+
+
+
+#library{
+      display: flex;
+      flex-direction: row;
+      /* justify-content: center; */
+      align-items: center;
+      margin-left: -800px;
+}
