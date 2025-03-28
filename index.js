@@ -38,8 +38,9 @@ function render(){
     let libraryEl=document.querySelector("#library");
     libraryEl.innerHTML = ""; 
     libraryEl.style.display = "grid";
-    libraryEl.style.gridTemplateColumns = "repeat(auto-fit, minmax(250px, 1fr))";
-    libraryEl.style.gap = "20px";
+    libraryEl.style.gridTemplateColumns = "repeat(5, 1fr)"; 
+
+    libraryEl.style.gap = "10px";
     libraryEl.style.maxHeight = "800px";
     libraryEl.style.overflowY = "auto";
 
